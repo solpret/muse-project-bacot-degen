@@ -1,0 +1,117 @@
+{
+ "created_wib": "2026-11-17T09:33:26+07:00",
+ "last_run_wib": "2026-11-17T09:37:05+07:00",
+ "last_sol_usd": 71.72856936059685,
+ "open_position": {
+  "pool": "6FSAS7w5xQms8JJeceDZrJz4itBgpfHbmcc27YP4Km61",
+  "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+  "symbol": "HOGE",
+  "pool_name": "HOGE / SOL",
+  "discovery": "gt_meteora_p2",
+  "bin_step_bps": 80,
+  "base_factor": 12500,
+  "protocol_share": 1000,
+  "base_fee": 0.01,
+  "fee_rate_lp": 0.009000000000000001,
+  "fee_method": "proxy_reserve",
+  "fee_share": 0.0015139033430998652,
+  "fee_detail": {
+   "calibration_fail": "binarrays_unavailable",
+   "proxy_share_entry": 0.0015139033430998652
+  },
+  "capital_sol": 0.1625,
+  "s": 0.008,
+  "entry_ts": 1794882961,
+  "entry_time_wib": "2026-11-17T09:36:01+07:00",
+  "entry_token_usd": 0.001019,
+  "entry_sol_usd": 71.72896771448129,
+  "entry_price_sol": 1.4206254913024143e-05,
+  "entry_reserve_usd": 7699.2744,
+  "entry_vol_m30_usd": 5918.8121282397,
+  "segments": [
+   {
+    "from_ts": 1794882961,
+    "R0": 1.4206254913024143e-05,
+    "Pa": 5.682501965209657e-06,
+    "Pb": 1.4916567658675351e-05,
+    "k_min": -114,
+    "k_max": 6,
+    "L": 109.83261903372153
+   }
+  ],
+  "repositions": [],
+  "hx0": 801.4497495236662,
+  "hy0": 0.15111440055828748,
+  "x0": 801.4497495236662,
+  "y0": 0.15111440055828748,
+  "fees_sol": 0.0,
+  "gas_sol": 0.0001,
+  "repos_count": 0,
+  "below_hours": 0.0,
+  "in_range_hours": 0.0,
+  "hours_held": 0.015277777777777777,
+  "pending_break": null,
+  "last_fee_hour_ts": 1794882961,
+  "prev_manage_ts": 1794883016,
+  "last_manage_ts": 1794883016,
+  "screening": {
+   "pair": {
+    "tvl_usd": 7699.2744,
+    "tvl_source": "gt_reserve",
+    "tvl_pass": true,
+    "mcap_usd": 946525.0,
+    "mcap_source": "ds_marketCap",
+    "mcap_pass": true,
+    "vol_m30_usd": 5918.8121282397,
+    "vol_m30_source": "gt_m30",
+    "vol_m30_pass": true,
+    "age_hours": 24.761388888888888,
+    "age_pass": true
+   },
+   "rugcheck": {
+    "holders": 8570,
+    "holders_pass": true,
+    "mint_authority": null,
+    "freeze_authority": null,
+    "authority_pass": true,
+    "transfer_fee_config": null,
+    "no_tax_pass": true,
+    "rugged": false,
+    "not_rugged_pass": true,
+    "score_normalised": 1,
+    "risks": []
+   },
+   "lbpair": {
+    "bin_step": 80,
+    "bin_step_pass": true,
+    "base_factor": 12500,
+    "protocol_share": 1000,
+    "base_fee": 0.01,
+    "fee_rate_lp": 0.009000000000000001,
+    "active_id": -536,
+    "token_x_mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+    "token_y_mint": "So11111111111111111111111111111111111111112",
+    "mint_match": true,
+    "cross_active_eq_idxref": false,
+    "cross_seed_eq_factor": true,
+    "price_ds_sol": 1.3811714173045162e-05
+   },
+   "fee_method": "proxy_reserve",
+   "fee_share": 0.0015139033430998652
+  }
+ },
+ "closed_trades": [],
+ "consec_losses": 0,
+ "pause_until_ts": null,
+ "stats": {
+  "runs": 2,
+  "screened": 2,
+  "entries": 1,
+  "closes": 0,
+  "wins": 0,
+  "losses": 0,
+  "skip_reasons": {
+   "pair_mcap_pass+vol_m30_pass": 1
+  }
+ }
+}

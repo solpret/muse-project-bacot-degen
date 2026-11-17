@@ -1,0 +1,7 @@
+# Alat snapshot holder — impl-4 (koordinator, 14 Nov ~22:05 WIB)
+
+## DIBANGUN: ~/workspace/solana-trading/infra/holder_snapshot.py + HOLDER_SNAPSHOT.md + holder_snapshots.db
+- Fungsi: snapshot holder ber-waktu via Solana Vibe Station public RPC (getTokenLargestAccounts + getTokenSupply; failover mainnet-beta hanya untuk supply). CLI: --check, --mint, --mints-file, --positions, --history. Jeda ≥1,2 dtk, timeout 20 dtk, fail-closed (RPC gagal → dilewati, tanpa data palsu). Kolom top1_excl_max_pct (top1 di luar akun terbesar) — untuk token graduated, akun terbesar biasanya pool.
+- Bukti: py_compile OK; --check SVS + mainnet-beta OK; snapshot mint M1: top1 93,76%, top1_excl_max 3,85%, top5 99,47%, top20 99,86%, supply 963.363.834; --history 2 snapshot + delta; --positions benar melaporkan tidak ada posisi open.
+- Diskrepansi vs G2 (dicatat jujur): G2 ~21:40 WIB top1 12,72% (top holder ~122,5 jt) vs alat ini ~22:03 WIB top1 93,76% (pool 903 jt) pada mint yang sama. Keduanya benar pada waktunya: token runtuh ~98% pukul 21:51 (exit SL M1), sell-off membanjiri pool (122 jt → 903 jt). Akun terbesar terverifikasi sebagai akun token pool Raydium (owner = alamat pair). Pelajaran: top1 mentah menyesatkan tanpa konteks waktu + identitas pool — baca top1_excl_max + deret.
+- Batas: alat standalone, tidak dibaca mesin M1/M3 (bukan gate); penjadwalan cron TIDAK dibuat (diputuskan parent); bila SVS mati, tidak ada failover untuk largestAccounts.

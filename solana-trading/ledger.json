@@ -1,0 +1,159 @@
+{
+  "started_at": "2026-11-14T18:20:20.617008+07:00",
+  "ends_at": "2026-11-21T18:20:20.617008+07:00",
+  "chain": "solana",
+  "virtual_capital_sol": 0.08,
+  "cash_sol": 0.052036886,
+  "positions": [],
+  "trades": [
+    {
+      "type": "SELL",
+      "token": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
+      "pair": "2J7svWqX7yYKdXvPJF5PQnjGxN5cghEFLX5SrNTyCxCo",
+      "reason": "take_profit_+30%",
+      "entry_sol": 0.024,
+      "exit_sol": 0.031970477,
+      "realized_sol": 0.007950476999999994,
+      "time": "2026-11-14T21:21:26.239667+07:00",
+      "x_status": "belum_dikonfirmasi"
+    },
+    {
+      "type": "SELL",
+      "token": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
+      "pair": "2J7svWqX7yYKdXvPJF5PQnjGxN5cghEFLX5SrNTyCxCo",
+      "reason": "stop_loss_-15%",
+      "entry_sol": 0.024,
+      "exit_sol": 0.000474927,
+      "realized_sol": -0.023545073,
+      "time": "2026-11-14T21:51:47.766812+07:00",
+      "x_status": "belum_dikonfirmasi"
+    },
+    {
+      "type": "SELL",
+      "token": "fX9dKa1DVdjSvYk3f2GAcj2RjQ5DFa54QTWAsXBpump",
+      "pair": "79DdcHGTNdCzPp6UXxsNru5kpzWP9cZBpANjo97JEH88",
+      "reason": "stop_loss_-15%",
+      "entry_sol": 0.024,
+      "exit_sol": 0.011651482,
+      "realized_sol": -0.012368518,
+      "time": "2026-11-15T03:06:21.665958+07:00",
+      "x_status": "belum_dikonfirmasi"
+    }
+  ],
+  "daily": {
+    "2026-11-14": {
+      "realized_sol": -0.015594596000000006,
+      "entries": 2,
+      "exits": 2
+    },
+    "2026-11-15": {
+      "realized_sol": -0.012368518,
+      "entries": 1,
+      "exits": 1
+    },
+    "2026-11-16": {
+      "realized_sol": 0.0,
+      "entries": 0,
+      "exits": 0
+    },
+    "2026-11-17": {
+      "realized_sol": 0.0,
+      "entries": 0,
+      "exits": 0
+    }
+  },
+  "sightings": {
+    "gpihbgbvwbzhkqivf1v8aupaust3mqsv3zb2sbjulgnd": {
+      "holders": 225,
+      "reserve_usd": 41333.7071,
+      "first_seen": "2026-11-14T18:30:45.950324+07:00",
+      "wallet_score": 0
+    },
+    "hlnfrydlb2kmf8t6e2k2xdso5g3qnfd9df5xtbmrpump": {
+      "holders": 469,
+      "reserve_usd": 4930.458,
+      "first_seen": "2026-11-14T19:03:43.023786+07:00",
+      "wallet_score": 0
+    },
+    "8azhd6zpadpyfzgaankofykhr19rwnnqusc8bagepump": {
+      "holders": 2056,
+      "reserve_usd": 14102.9257,
+      "first_seen": "2026-11-14T19:57:19.687262+07:00",
+      "wallet_score": 0
+    },
+    "lp9feb5tzzept48qigsajkdzb38r5hffyjzerzxpump": {
+      "holders": 2956,
+      "reserve_usd": 24133.049,
+      "first_seen": "2026-11-14T19:57:28.930341+07:00",
+      "wallet_score": 0
+    },
+    "5rvyrpdgwcchmhxdppzqpimkapn7cka7vbeedy6fpump": {
+      "holders": 106,
+      "reserve_usd": 6257.3911,
+      "first_seen": "2026-11-14T20:26:33.620709+07:00",
+      "wallet_score": 0
+    },
+    "5r9mnneglpsvq6wnmakh82penlqwfstyu5ny9ezpzhot": {
+      "holders": 352,
+      "reserve_usd": 6116.0517,
+      "first_seen": "2026-11-14T20:41:54.493576+07:00",
+      "wallet_score": 0
+    },
+    "6szujgnhtdezszomdbtcxsi58bxqnsz6mkj49wgxpump": {
+      "holders": 2726,
+      "reserve_usd": 3214.099,
+      "first_seen": "2026-11-14T20:56:31.187284+07:00",
+      "wallet_score": 0
+    },
+    "dtthx3p9ma8axe8qsevfzgmasn6r4ymkdvmzayk3pump": {
+      "holders": 920,
+      "reserve_usd": 12525.796,
+      "first_seen": "2026-11-15T00:11:33.506669+07:00",
+      "wallet_score": 0
+    },
+    "fbwlntqwvwzk4jqak7agvyile7wpg7jcsjfksadkpump": {
+      "holders": 2677,
+      "reserve_usd": 26670.4858,
+      "first_seen": "2026-11-15T00:26:36.733500+07:00",
+      "wallet_score": 0
+    },
+    "dfayzpnk3ucoi1qjektmtvhiumqeukf8lsczxeqqpump": {
+      "holders": 1151,
+      "reserve_usd": 14903.3588,
+      "first_seen": "2026-11-15T00:42:19.111190+07:00",
+      "wallet_score": 0
+    },
+    "5bzt7x5nyzx3grnral6cdrquskxewdvwh2wuxd91pump": {
+      "holders": 2376,
+      "reserve_usd": 23525.9452,
+      "first_seen": "2026-11-15T00:42:28.387134+07:00",
+      "wallet_score": 0
+    },
+    "fx9dka1dvdjsvyk3f2gacj2rjq5dfa54qtwasxbpump": {
+      "holders": 318,
+      "reserve_usd": 14425.14,
+      "first_seen": "2026-11-15T01:42:07.565562+07:00",
+      "wallet_score": 0
+    },
+    "hxw15jt4tbibjks1lwhnovx4mhrjropwur4zefefpump": {
+      "holders": 763,
+      "reserve_usd": 38654.3282,
+      "first_seen": "2026-11-15T01:42:08.417476+07:00",
+      "wallet_score": 0
+    },
+    "46sup1mc1adqppikrdnlujmzsgzceydv3pk8xppxpump": {
+      "holders": 1193,
+      "reserve_usd": 16093.9801,
+      "first_seen": "2026-11-15T02:57:18.633897+07:00",
+      "wallet_score": 0
+    },
+    "btb54behtsx8syvwfucmee6vxasyl9zp7fexy5d1pump": {
+      "holders": 1016,
+      "reserve_usd": 13584.2844,
+      "first_seen": "2026-11-15T02:57:19.640309+07:00",
+      "wallet_score": 0
+    }
+  },
+  "sol_price_usd_at_start": 75.86,
+  "initial_capital_sol": 0.08
+}

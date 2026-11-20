@@ -1,8 +1,8 @@
 # MANIFEST — muse-project-bacot-degen
 
-- **Tanggal:** 17 November 2026
+- **Tanggal:** 20 November 2026
 - **Repo publik:** `muse-project-bacot-degen` — https://github.com/solpret/muse-project-bacot-degen
-- **Ukuran:** 16 MB (15.997.115 byte), 109 file
+- **Ukuran:** 16 MB (16.028.300 byte), 117 file
 - **Cakupan:** Project BACOT DEGEN — paper trading mandiri Solana (M1)
   + riset LP / track M2 (DLMM).
 
@@ -28,5 +28,15 @@ Backtest historis 3–14 Nov adalah bukti ronde-0, BUKAN trial challenge.
 - `CHALLENGE.md` + scoreboard ada di `common/` (repo `muse-project-common`).
 - Ingest Solana ada di `common/infra/`.
 
+## Pembaruan 2026-11-20 (sejak 17 Nov)
+- Trading DIHENTIKAN user 19 Nov 18:22 WIB (cron paper-trading 15m +
+  solana-ingest-watchdog diperbarui).
+- Ledger M1 (`solana-trading/ledger.json`) + M2 (`m2/m2-ledger.json`)
+  diperbarui; 3 log run paper LP 17–18 Nov
+  (`paper_lp_dlmm_live_*.json`, ~5 KB tiap file) sebagai bukti trial M2;
+  `hidden_files/` + `crons/` baru di goals.
+- Pemecahan repo: TIDAK diperlukan — tree 16 MB; tidak ada file >90 MB.
+
 ## Audit rahasia
-Bersih (17 Nov 2026): 0 temuan bernilai — layak repo publik.
+Bersih (20 Nov 2026, `audit-secret-2026-11-20.txt` di folder induk):
+0 temuan bernilai — layak repo publik.

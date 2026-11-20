@@ -1,7 +1,7 @@
 ---
 id: paper-trading-solana-15m
 title: Paper trading Solana (simulasi, 15 menit)
-enabled: true
+enabled: false
 owner: goal:model-degen-paper-trading-mandiri
 mode: task
 schedule:

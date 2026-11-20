@@ -1,7 +1,7 @@
 ---
 id: solana-ingest-watchdog
 title: Watchdog daemon ingest Solana (nyalakan ulang bila mati)
-enabled: true
+enabled: false
 owner: goal:model-degen-paper-trading-mandiri
 mode: task
 schedule:
